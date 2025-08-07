@@ -1,0 +1,26 @@
+{
+  "name": "nodestow",
+  "version": "0.0.1",
+  "description": "gnu stow but build using nodejs",
+  "homepage": "https://github.com/mRezaAnanta/nodestow#readme",
+  "bugs": {
+    "url": "https://github.com/mRezaAnanta/nodestow/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mRezaAnanta/nodestow.git"
+  },
+  "license": "ISC",
+  "author": "Muhammad Reza Ananta",
+  "type": "commonjs",
+  "main": "bin/index.js",
+  "bin": {
+    "nodestow": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
+}
